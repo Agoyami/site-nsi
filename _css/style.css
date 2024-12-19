@@ -33,7 +33,47 @@
 
 .container-p {
     display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    outline: 1px solid black;
 }
 .titre-1 {
-    justify-content: center;
+    outline: 1px solid black;
+    width: auto;
+}
+
+.t-1 {
+    font-size: xx-large;
+    outline: 1px solid black;
+    margin-left: 50%;
+    width: min-content;
+    height: min-content;
+}
+
+.text-1 {
+    outline: 1px solid black;
+    width: auto;
+}
+.p-1 {
+    outline: 1px solid black;
+    margin-top: auto;
+    width: min-content;
+    height: min-content;
+    margin-left: 10px;
+    
+}
+.space {
+    height: 10px;
+}
+.cont-img-1 {
+    width: auto;
+    height: auto;
+    outline: 1px solid black;
+}
+
+.img-1 {
+    margin-left: 81%;
+    outline: 1px solid black;
+    margin-top: 4px;
 }
